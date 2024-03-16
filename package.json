@@ -3,8 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/FedeDuarte1992/entrega.git",
+  "homepage": "https://FedeDuarte1992.github.io/entregaFinal",
   "scripts": {
+    
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
