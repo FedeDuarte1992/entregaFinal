@@ -1,0 +1,117 @@
+.contenedor-productos {
+  align-items: flex-start;
+  font-family: 'Maughan Script Regular', sans-serif;
+  display: flex;
+  flex-direction: column; /* Cambiado a columna para que los elementos se apilen verticalmente */
+  justify-content: flex-start; /* Alinea los elementos al principio verticalmente */
+  align-items: center;
+  padding-left: 2%;
+  margin-top: 0;
+  background-color: #e1eab519;
+  color: #390d2e;
+  border-radius: 10px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contenedor-productos h2 {
+  
+  font-family: 'Maughan Script Regular', sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 10px; /* Cambiado a un valor fijo */
+}
+
+.contenedor-productos p {
+  font-family: 'Maughan Script Regular', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.lista-categorias h3 {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.lista-categorias h3:hover {
+  color: #119215;
+}
+
+.lista-productos {
+  display: flex;
+  flex-direction: column; /* Cambiado a columna para que los botones se apilen verticalmente */
+  align-items: flex-start; /* Alinea los botones al inicio */
+}
+.boton-categorias button {
+  background-color: #fff; /* Color de fondo del botón */
+  color: #390d2e; /* Color del texto del botón */
+  border: 2px solid #390d2e; /* Borde del botón */
+  padding: 10px 20px; /* Espaciado interno del botón */
+  border-radius: 5px; /* Bordes redondeados */
+  margin-bottom: 5px; /* Espaciado inferior entre botones */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+.lista-categorias button:hover {
+  background-color: #390d2e; /* Color de fondo del botón al pasar sobre él */
+  color: #fff; /* Color del texto del botón al pasar sobre él */
+}
+
+.categoria-btn {
+  background-color: #fff; /* Color de fondo del botón */
+  color: #390d2e; /* Color del texto del botón */
+  border: 2px solid #390d2e; /* Borde del botón */
+  padding: 10px 20px; /* Espaciado interno del botón */
+  border-radius: 5px; /* Bordes redondeados */
+  margin-bottom: 5px; /* Espaciado inferior entre botones */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+.categoria-btn:hover {
+  background-color: #390d2e; /* Color de fondo del botón al pasar sobre él */
+  color: #fff; /* Color del texto del botón al pasar sobre él */
+}
+.contenedor-productos {
+  width: 100%;
+  display: flex;
+  align-items: flex-start; /* Alinear los elementos al inicio verticalmente */
+}
+
+.lista-categorias {
+  display: flex;
+  flex-direction: column; /* Los botones se apilan verticalmente */
+}
+
+.productos-container {
+  margin-left: 20px; /* Espaciado a la izquierda de los productos */
+}
+
+.ventana-emergente {
+  position: fixed;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  background-color: #e1eab5; /* Color de fondo */
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra */
+  max-height: 50%;
+  max-height: 80%; /* Altura máxima del modal, ajustable según sea necesario */
+  overflow-y: auto; /* Añade desplazamiento vertical si el contenido es demasiado largo */
+  width: 100%; /* Ancho del modal */
+  max-width: 70%; /* Ancho máximo del modal */
+}
+.cerrar-ventana{
+  background-color: #fff; /* Color de fondo del botón */
+  color: #390d2e; /* Color del texto del botón */
+  border: 2px solid #390d2e; /* Borde del botón */
+  padding: 10px 20px; /* Espaciado interno del botón */
+  border-radius: 5px; /* Bordes redondeados */
+  margin-bottom: 5px; /* Espaciado inferior entre botones */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+
+}

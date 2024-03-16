@@ -1,0 +1,35 @@
+/* Seccion.css */
+
+.seccion {
+  
+  font-family: 'Nombre de tu fuente', sans-serif; /* Cambia 'Nombre de tu fuente' por el nombre de la fuente que deseas utilizar */
+  display: flex; /* Utiliza un modelo de caja flexible */
+  justify-content: center; /* Centra horizontalmente el contenido */
+  align-items: center; /* Centra verticalmente el contenido */
+  flex-direction: column; /* Alinea los elementos en una columna */
+  padding: 20%; /* Agrega espaciado alrededor del contenido */
+  margin-top: px; /* Agrega un margen superior */
+  background-color: #e1eab571; /* Color de fondo */
+  color: #390d2e; /* Color del texto */
+  border-radius: 10px; /* Agrega bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agrega sombra */
+}
+
+.seccion h2 {
+  
+ 
+  font-family: 'Maughan Script Regular', sans-serif;
+  font-weight: 100; /* Cambia el peso de la fuente a más fino */
+  font-style: italic; /* Pone el texto en cursiva */
+  font-size: 30px; /* Tamaño de la fuente del título */
+ 
+  text-align: center; /* Alinea el texto al centro */
+}
+
+
+
+
+/* Estilos para el botón */
+
+
+

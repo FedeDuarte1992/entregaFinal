@@ -1,0 +1,69 @@
+.otros-container {
+    margin-top: 5px;
+}
+
+.producto-grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.producto-img {
+    border-radius: 10px;
+    width: 100%;
+    height: 55%;
+}
+
+.producto-detalles-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.producto-grid-container button {
+    background-color: #e1eab5; /* Color de fondo del botón */
+    color: #390d2e; /* Color del texto del botón */
+    border: 2px solid #390d2e; /* Borde del botón */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    border-radius: 5px; /* Bordes redondeados */
+    margin-bottom: 5px; /* Espaciado inferior entre botones */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    max-width: 200px; /* Ancho máximo del botón */
+    width: 100%; /* Ancho del botón */
+    text-align: center; /* Alineación del texto en el centro */
+}
+
+/* Estilo para el botón Detalles al pasar el cursor sobre él */
+.producto-grid-container button:hover {
+    background-color: #390d2e; /* Color de fondo del botón al pasar sobre él */
+    color: white; /* Color del texto del botón al pasar sobre él */
+}
+
+.producto-cerrar-btn {
+    background-color: #fff; /* Color de fondo del botón */
+    color: #390d2e; /* Color del texto del botón */
+    border: 2px solid #390d2e; /* Borde del botón */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    border-radius: 5px; /* Bordes redondeados */
+    margin-bottom: 5px; /* Espaciado inferior entre botones */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+.producto-detalles-img {
+    width: 100%; /* Ancho de la imagen */
+    height: auto;
+    margin-right: 20px; /* Espacio a la derecha de la imagen */
+    margin-left: 10%;
+}
+
+@media (max-width: 600px) {
+    .producto-grid-container {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+}

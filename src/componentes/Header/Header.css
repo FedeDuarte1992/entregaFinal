@@ -1,0 +1,8 @@
+
+  .contenido h1 {
+    font-family: 'Maughan Script Regular', sans-serif;
+    font-weight: 30; /* Cambia el peso de la fuente a más fino */
+    font-style: italic; /* Pone el texto en cursiva */
+    color: #ecad9e;
+  }
+  

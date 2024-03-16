@@ -1,0 +1,79 @@
+
+.contenedor {
+  float: right;
+  width: 85%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%; /* Para que el footer quede abajo en la página */
+}
+.contenedor-productos {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%; /* Para que el footer quede abajo en la página */
+  min-height: 100vh;
+}
+/*--------------------------------------------*/
+.main-container {
+ 
+  
+  display: flex;
+  flex: 1;
+}
+.main-container-productos {
+  display: flex;
+  flex: 1;
+  
+}
+
+
+/*--------------------------------------------*/
+.content-container {
+  
+  background-image: url('./assets/img/TejidosCrochetFondos.jpg'); /* URL de la imagen de fondo */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex: 1;
+}
+.content-container-productos {
+  background-image: url('../../assets/img/tejido-crochet-fondos1.jpg'); /* URL de la imagen de fondo */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex: 1;
+  display: flex; /* Utiliza un modelo de caja flexible */
+  flex-direction: column; /* Alinea los elementos en una columna */
+}
+/*--------------------------------------------*/
+/* Estilos para el encabezado */
+.header {
+  position: fixed;
+  left: 0;
+  height: 100%;
+  width: 15%;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  font-size: 32px; /* Tamaño de fuente más grande */
+  font-weight: 300; /* Peso de fuente más fino */
+}
+
+/* Estilos para el footer */
+.footer {
+  position: fixed; /* Establece el posicionamiento fijo */
+  left: 0; /* Coloca el footer al lado izquierdo */
+  bottom: 0; /* Coloca el footer en la parte inferior */
+  width: 100%; /* Establece el ancho al 100% */
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.contenido-productos{
+  width: 100%;
+  align-content: center;
+  align-items: center;
+  }

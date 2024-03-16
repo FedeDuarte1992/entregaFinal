@@ -1,0 +1,27 @@
+.Menu {
+    font-family: Arial, sans-serif; /* Fuente predeterminada */
+  }
+  
+  .Menu ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .Menu li {
+    display: block; /* Cambiar a bloque para que los elementos se muestren uno debajo del otro */
+    margin-bottom: 10px; /* Agregar un espacio entre cada elemento */
+  }
+  
+  .Menu a {
+    color: #de0606; /* Color del texto */
+    text-decoration: none;
+    font-weight: 300; /* Fuente más fina */
+    font-size: 16px; /* Tamaño de la fuente */
+    transition: color 0.4s; /* Transición suave para el cambio de color */
+  }
+  
+  .Menu a:hover {
+    color: #48ae15; /* Color del texto al pasar el ratón */
+  }
+  

@@ -1,0 +1,61 @@
+.registro-container {
+  font-family: 'Nombre de tu fuente', sans-serif; /* Cambia 'Nombre de tu fuente' por el nombre de la fuente que deseas utilizar */
+  display: flex; /* Utiliza un modelo de caja flexible */
+  justify-content: center; /* Centra horizontalmente el contenido */
+  align-items: center; /* Centra verticalmente el contenido */
+  flex-direction: column; /* Alinea los elementos en una columna */
+  padding: 20%; /* Agrega espaciado alrededor del contenido */
+  margin-top: px; /* Agrega un margen superior */
+  background-color: #e1eab571; /* Color de fondo */
+  color: #390d2e; /* Color del texto */
+  border-radius: 10px; /* Agrega bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agrega sombra */
+}
+
+.registro-container h2 {
+  font-family: 'Maughan Script Regular', sans-serif;
+  font-weight: 100; /* Cambia el peso de la fuente a más fino */
+  font-style: italic; /* Pone el texto en cursiva */
+  font-size: 30px; /* Tamaño de la fuente del título */
+  text-align: center; /* Alinea el texto al centro */
+}
+
+.registro-exitoso {
+  background-color: #7cffa0; /* Color de fondo para el cartel de éxito */
+  padding: 10px; /* Espaciado interno */
+  margin-top: 10px; /* Espaciado superior */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+.registro-exitoso p {
+  text-align: center; /* Alinea el texto al centro */
+}
+
+.form-group {
+  margin-bottom: 10px; /* Espaciado entre grupos de campos de formulario */
+}
+
+.form-group label {
+  display: block; /* Muestra las etiquetas en una nueva línea */
+  margin-bottom: 5px; /* Espaciado inferior */
+}
+
+.form-group input {
+  width: 100%; /* Ancho completo */
+  padding: 8px; /* Espaciado interno */
+  border-radius: 5px; /* Bordes redondeados */
+  border: 1px solid #ccc; /* Borde del campo */
+}
+
+button[type="submit"] {
+  background-color: #4caf50; /* Color de fondo del botón */
+  color: white; /* Color del texto del botón */
+  padding: 10px 20px; /* Espaciado interno */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049; /* Color de fondo del botón al pasar sobre él */
+}
