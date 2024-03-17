@@ -3,7 +3,7 @@ import commonjs from '@rollup/plugin-commonjs';
 import babel from '@rollup/plugin-babel';
 
 export default {
-  input: 'src/app.js', // Ruta del archivo de entrada principal
+  input: 'src/App.js', // Ruta del archivo de entrada principal
   output: {
     file: 'dist/bundle.js', // Ruta del archivo de salida
     format: 'cjs' // Formato de salida (CommonJS, ES Module, UMD, etc.)
